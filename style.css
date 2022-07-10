@@ -131,3 +131,46 @@ body {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.lowersection {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.lowercontent {
+    background-color: #3882f5;
+    width: 900px;
+    padding: 50px 100px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+.bottombutton {
+    background-color: #3882f5;
+    color: white;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border-style: solid;
+    border-color: white;
+}
+
+.lowertexttitle {
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.lowertext {
+    font-weight: 100;
+}
+
+.footer {
+    padding: 30px;
+}

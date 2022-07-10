@@ -1,12 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-family: sans-serif;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
-    color: white;
-    font-size: 26px;
-    font-family: sans-serif;
+    font-size: 24px;
     padding: 10px;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .headerlinks {
@@ -19,4 +25,36 @@
     color: lightgray;
     font-size: 16px;
     margin: 8px;
+}
+
+.uppersection {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.upperleft {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    gap: 15px;
+}
+
+.upperlefttitle {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#upperbutton {
+    width: 150px;
+    padding: 10px;
+    background-color: #3882f5;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
 }
